@@ -31,7 +31,7 @@ long GetWaysToWin(long totalTime, long distanceToBeat)
     return (long)Math.Floor(holdTimeX) - (long)Math.Floor(holdTimeY);
 }
 
-(double x, double y) GetQuadraticSolutions (long a, long b, long c)
+(double x, double y) GetQuadraticSolutions(long a, long b, long c)
 {
     return ((-b + Math.Sqrt(b * b - 4 * a * c)) / (2 * a), (-b - Math.Sqrt(b * b - 4 * a * c)) / (2 * a));
 }
